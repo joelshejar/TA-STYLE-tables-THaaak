@@ -1,5 +1,3 @@
-writeCode
-
 - Create a layout according to the design shown below.
 
 ![Table Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/table/ex-1.png)
