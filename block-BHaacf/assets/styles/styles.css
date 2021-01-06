@@ -1,0 +1,387 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container-one{
+    max-width: 1400px;
+    padding: 0 150px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-stretch{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.flex-six{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar{
+    padding: 20px 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+}
+.logo a{
+    color: #ED563C;
+}
+.nav a{
+    font-size: 13px;
+    color: white;
+    margin-left: 20px;
+}
+.home a{
+    color: #ED563C;
+}
+span{
+    color: #ED563C;
+}
+.btn{
+    padding: 7px 10px;
+    background-color: #ED563C;
+    color: white;
+    font-size: 13px;
+}
+video {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    max-width: 1370px;
+    height: 100vh;
+    width: 100vw;
+    
+  }
+.hero{
+    
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.hero h2{
+    font-size: 15px;
+    color: white;
+}
+.hero h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin: 20px 0 30px 0;
+}
+.section-one{
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100vw;
+}
+.section-two{
+    margin: 80px 450px 40px 450px;
+}
+.section-two h2{
+    font-size: 28px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+.section-two p{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+}
+.begin{
+    width: 50%;
+}
+.begin-img{
+    width: 19%;
+}
+.begin-img img{
+    width: 100%;
+    height: 100%;
+}
+.begin-contents{
+    width: 77%;
+}
+.begin-contents h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+.begin-contents p{
+    font-size: 12px;
+    line-height: 1.5;
+    color: gray;
+    padding: 12px 0;
+}
+.begin-contents a{
+    font-size: 12px;
+    color: #ED563C;
+}
+.spec-begin{
+    margin: 30px 0;
+}
+.section-three{
+    margin-bottom: 70px;
+}
+.section-four{
+    background:no-repeat url(../media/cta-bg.jpg);
+    background-size: contain;
+    height: 300px;
+    text-align: center;
+}
+.become-member h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.become-member p{
+    font-size: 15px;
+    color: white;
+    padding: 20px 300px 40px 300px;
+}
+.training-class{
+    width: 26%; 
+}
+.first-training{
+    width: 70%;
+}
+.flex-training{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 6px 0px rgb(207, 205, 205);
+}
+.sec-class a{
+    color: black;
+    padding: 0px 20px;
+}
+.first-class a{
+    color: #ED563C;
+    padding: 0px 20px;
+}
+.btn-two a{
+    color: white;
+}
+.btn-two{
+    display: flex;
+    justify-content: center;
+}
+.flex-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first-training img{
+    height: 60%;
+    width: 100%;
+}
+.first-training h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.first-training p{
+    font-size: 12px;
+    line-height: 1.5;
+    color: gray;
+    padding-bottom: 20px;
+}
+.section-five{
+    background: url(../media/schedule-bg.jpg) no-repeat ;
+    width: 100vw;
+    background-size: cover;
+    height: 700px;
+}
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-size: 15px;
+    color: white;
+    margin: 0 auto;
+}
+caption{
+    padding-bottom: 40px ;
+}
+td{
+    border: 1px solid white;
+    padding: 20px;
+}
+.schedule{
+    padding-top: 80px;
+}
+.schedule h2{
+    color: white;
+}
+.schedule p{
+    color: white;
+}
+.trainers{
+    width: 24%;
+    padding: 30px;
+    box-shadow: 0px 0px 6px 0px rgb(197, 196, 196);
+    border-radius: 3px;
+}
+.trainer-img img{
+    width: 100%;
+    height: 50%;
+}
+.trainers h4{
+    color: #ED563C;
+    font-size: 12px;
+    padding: 7px 0;
+}
+.trainers h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+.trainers p{
+    font-size: 11px;
+    line-height: 1.5;
+    color: gray;
+    padding-bottom: 7px;
+}
+.trainers i{
+    font-size: 13px;
+    margin-right: 7px;
+}
+.icons a{
+    color: black;
+}
+.section-six{
+    margin-top: 80px;
+    
+}
+.map{
+    width: 50%;
+    display: inline;
+}
+.form{
+    width: 50%;
+    background: url(../media/contact-bg.jpg);
+    padding: 50px;
+}
+input{
+    border: 0;
+    padding: 8px 10px;
+    border: 1px solid rgb(185, 183, 183);
+}
+.form-name{
+    width: 45%;
+    margin-bottom: 5px;
+}
+.form-email{
+    width: 45%;
+    margin-bottom: 5px;
+}
+.form-subject{
+    width: 95%;
+    margin-bottom: 5px;
+}
+
+fieldset{
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+}
+iframe{
+    width: 100%;
+}
+textarea{
+    border: 0;
+    padding: 8px 10px;
+    width: 484px;
+    border: 1px solid rgb(185, 183, 183);
+    margin-bottom: 7px;
+}    
+.footer{
+    width: 100vw;
+    text-align: center;
+}
+.footer h2{
+    padding: 30px;
+    font-size: 13px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
